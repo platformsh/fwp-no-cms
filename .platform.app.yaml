@@ -1,0 +1,23 @@
+# This file describes an application. You can have multiple applications
+# in the same project.
+
+# The name of this app. Must be unique within a project.
+name: no-template
+
+# The type of the application to build.
+type: php:7.1
+
+build:
+    flavor: composer
+
+# The configuration of app when it is exposed to the web.
+web:
+    locations:
+        "/":
+            # The public directory of the app, relative to its root.
+            root: ""
+            # The front-controller script to send non-static requests to.
+            passthru: "/index.php"
+
+# The size of the persistent disk of the application (in MB).
+disk: 2048
