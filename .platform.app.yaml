@@ -8,7 +8,7 @@ name: no-template
 type: php:7.1
 
 build:
-    flavor: composer
+    flavor: none
 
 # The configuration of app when it is exposed to the web.
 web:
