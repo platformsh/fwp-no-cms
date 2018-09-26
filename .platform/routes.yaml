@@ -1,6 +1,6 @@
 "http://{default}/":
     type: upstream
-    upstream: "no-template:php"
+    upstream: "no-template:http"
 "https://{default}/":
     type: upstream
-    upstream: "no-template:php"
+    upstream: "no-template:http"
